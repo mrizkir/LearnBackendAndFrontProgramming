@@ -59,6 +59,21 @@ Library untuk mengakses web service dari sumber lain.
 ```bash
 composer require guzzlehttp/guzzle -vvv
 ```
+## illuminate/mail
+Secara default layanan Email di Lumen belum diaktifkan, jadi perlu dilakukan secara manual
+```bash
+composer require illuminate/mail -vvv
+```
+## spatie/laravel-permission
+Untuk mengelola pembagian jenis-jenis user (role) dan pengaturan permission masing-masing role.
+```bash
+composer require spatie/laravel-permission -vvv
+```
+## tymon/jwt-auth
+Driver API untuk mekanisme login user.
+```bash
+composer require tymon/jwt-auth -vvv
+```
 # Instalasi Frontend
 Silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
 ## VUE.js
