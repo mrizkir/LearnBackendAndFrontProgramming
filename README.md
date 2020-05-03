@@ -11,7 +11,8 @@ Proses pembelajaran ini membutuhkan beberapa hal yang perlu dipersiapkan oleh pe
 * git 2.24.1 [opsional]
 
 Install satu per satu, pastikan telah berjalan dengan baik di command line. Untuk memastikan silahkan bukan command prompt-nya ketikan perintah berikut :
-PHP : 
+
+php : 
 ```bash
 php --version
 ```
