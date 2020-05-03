@@ -91,6 +91,6 @@ npm install -g @vue/cli
 ```
 Selanjutnya membuat project :
 ```bash
-npm install -g @vue/cli
+vue create frontend
 ```
 
