@@ -32,15 +32,31 @@ git :
 ```bash
 git --version
 ```
-Bila tidak ingin repot-repot menginstall satu per satu bisa menggunakan [Laragon](https://laragon.org/download/).
+Bila tidak ingin repot-repot menginstall satu per satu bisa menggunakan [Laragon](https://laragon.org/download/). Selanjutnya silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
 
-# Instalasi 
-Silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
+# Instalasi Backend
 ## Lumen
 [Lumen](https://lumen.laravel.com) merupakan micro framework yang didedikasikan sebagai framework untuk membuat web service berbasis pada laravel framework.
 ```bash
-composer create-project --prefer-dist laravel/lumen backed -vvv
+composer create-project --prefer-dist laravel/lumen backend -vvv
 ```
+Selanjutnya masuk ke dalam folder `backend` untuk melakukan instalasi library-library yang dibutuhkan :
+```bash
+cd backend
+```
+## flipbox/lumen-generator
+Lumen generator digunakan untuk memunculkan kembali generator code laravel yang tidak ada di lumen.
+```
+composer require flipbox/lumen-generator -vvv
+```
+## fruitcake/laravel-cors
+Untuk Mengakifkan CORS (Cross Origin Resource Sharing) di Lumen
+```bash
+composer require fruitcake/laravel-cors
+```
+## 
+# Instalasi Frontend
+Silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
 ## VUE.js
 [VUE](https://vuejs.org) framework javascript untuk membangun sebuah frontend yang elegan dan cepat.
 ```bash
