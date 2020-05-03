@@ -75,7 +75,10 @@ Driver API untuk mekanisme login user.
 composer require tymon/jwt-auth -vvv
 ```
 # Instalasi Frontend
-Silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
+Sebelum instalasi di sisi frontend, pastikan tidak berada didalam folder frontend; ketikan perintah berikut untuk keluar dari folder backend :
+```bash
+cd ..
+```
 ## VUE.js
 [VUE](https://vuejs.org) framework javascript untuk membangun sebuah frontend yang elegan dan cepat.
 ```bash
@@ -86,3 +89,8 @@ Cara mudah untuk membangun aplikasi diatas VUE menggunakan [VUE.cli](https://cli
 ```bash
 npm install -g @vue/cli
 ```
+Selanjutnya membuat project :
+```bash
+npm install -g @vue/cli
+```
+
