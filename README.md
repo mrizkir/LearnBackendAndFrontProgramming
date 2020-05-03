@@ -34,3 +34,20 @@ git --version
 ```
 Bila tidak ingin repot-repot menginstall satu per satu bisa menggunakan [Laragon](https://laragon.org/download/).
 
+# Instalasi 
+Silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
+## Lumen
+[Lumen](https://lumen.laravel.com) merupakan micro framework yang didedikasikan sebagai framework untuk membuat web service berbasis pada laravel framework.
+```bash
+composer create-project --prefer-dist laravel/lumen backed -vvv
+```
+## VUE.js
+[VUE](https://vuejs.org) framework javascript untuk membangun sebuah frontend yang elegan dan cepat.
+```bash
+npm install vue
+```
+## VUE.cli
+Cara mudah untuk membangun aplikasi diatas VUE menggunakan [VUE.cli](https://cli.vuejs.org/)
+```bash
+npm install -g @vue/cli
+```
