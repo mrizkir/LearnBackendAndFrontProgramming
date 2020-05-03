@@ -52,9 +52,13 @@ composer require flipbox/lumen-generator -vvv
 ## fruitcake/laravel-cors
 Untuk Mengakifkan CORS (Cross Origin Resource Sharing) di Lumen
 ```bash
-composer require fruitcake/laravel-cors
+composer require fruitcake/laravel-cors -vvv
 ```
-## 
+## guzzlehttp/guzzle
+Library untuk mengakses web service dari sumber lain.
+```bash
+composer require guzzlehttp/guzzle -vvv
+```
 # Instalasi Frontend
 Silahkan lakukan instalasi terlebih dahulu, sebelum proses pembelajaran dimulai, sehingga saat proses pembelajaran langsung ke materi.
 ## VUE.js
