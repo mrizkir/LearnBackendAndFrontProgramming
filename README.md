@@ -89,8 +89,50 @@ Cara mudah untuk membangun aplikasi diatas VUE menggunakan [VUE.cli](https://cli
 ```bash
 npm install -g @vue/cli
 ```
-Selanjutnya membuat project :
+## Membuat Project
+Untuk membuat project misalnya diberi nama `frontend` ketikan perintah berikut :
 ```bash
 vue create frontend
 ```
+maka akan muncul tampilan sebagai berikut :
+```bash
+Vue CLI v4.3.1
+? Please pick a preset: (Use arrow keys)
+❯ default (babel, eslint)  
+  Manually select features
+```
+Pilih default. Kemudian tekan enter. Output akhir instalasi ini :
+```bash
+...........
+............
+🎉  Successfully created project frontend.
+👉  Get started with the following commands:
 
+ $ cd frontend
+ $ npm run serve
+```
+selanjutnya masuk ke dalam folder `frontend` :
+```bash
+cd frontend
+```
+## Vue-router
+Paradigma pemrograman yang digunakan adalah SPA (Single Page Application), oleh karena itu digunakan vue-router untuk mewujudkannya. Lakukan instalasi :
+```bash
+vue add router
+```
+Saat instalasi akan ditanya :
+```bash
+? Use history mode for router? (Requires proper server setup for index fallback in production) Yes
+```
+Pilih yes.
+
+## Vuex
+Vuex digunakan untuk mengelola state, kalau istilah di PHP seperti SESSION.
+```bash
+vue add vuex
+```
+## Vuex-persistent
+Vuex-persistent digunakan untuk menyimpan state supaya tetap ada. Biasanya disimpan di dalam local storaget web browser.
+```bash
+npm install vuex-persistent
+```
