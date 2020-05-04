@@ -136,3 +136,8 @@ Vuex-persistent digunakan untuk menyimpan state supaya tetap ada. Biasanya disim
 ```bash
 npm install vuex-persistent
 ```
+## Vuetify
+Vuetify library terlengkap didunia vue, mempelajarinya membuat project VUE bisa lebih cepat.
+```bash
+vue add vuetify
+```
