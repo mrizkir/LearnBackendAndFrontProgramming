@@ -75,7 +75,7 @@ Driver API untuk mekanisme login user.
 composer require tymon/jwt-auth -vvv
 ```
 # Instalasi Frontend
-Sebelum instalasi di sisi frontend, pastikan tidak berada didalam folder frontend; ketikan perintah berikut untuk keluar dari folder backend :
+Sebelum instalasi di sisi frontend, pastikan tidak berada didalam folder `backend`; ketikan perintah berikut untuk keluar dari folder backend :
 ```bash
 cd ..
 ```
