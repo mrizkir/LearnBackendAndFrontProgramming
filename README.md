@@ -132,7 +132,7 @@ Vuex digunakan untuk mengelola state, kalau istilah di PHP seperti SESSION.
 vue add vuex
 ```
 ## Vuex-persistent
-Vuex-persistent digunakan untuk menyimpan state supaya tetap ada. Biasanya disimpan di dalam local storaget web browser.
+Vuex-persistent digunakan untuk menyimpan state supaya tetap ada. Biasanya disimpan di dalam local storage web browser.
 ```bash
 npm install vuex-persistent
 ```
