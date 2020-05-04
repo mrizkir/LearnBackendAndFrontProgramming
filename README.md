@@ -141,3 +141,5 @@ Vuetify library terlengkap didunia vue, mempelajarinya membuat project VUE bisa 
 ```bash
 vue add vuetify
 ```
+# Pertanyaan
+Pertanyaan bisa diajukan melalui issue tracker [github](https://github.com/mrizkir/LearnBackendAndFrontProgramming/issues)
