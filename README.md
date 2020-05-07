@@ -1,5 +1,4 @@
-![logo_stti](https://user-images.githubusercontent.com/7402103/81349747-d21bb680-90ea-11ea-9cb2-89131f3f75d3.png)
-![logo_aptikom](https://user-images.githubusercontent.com/7402103/81349561-6df8f280-90ea-11ea-8e1f-8cac14d5ecbd.jpeg)
+<img src="https://user-images.githubusercontent.com/7402103/81349747-d21bb680-90ea-11ea-9cb2-89131f3f75d3.png" height="120"/><img src="https://user-images.githubusercontent.com/7402103/81349561-6df8f280-90ea-11ea-8e1f-8cac14d5ecbd.jpeg"/>
 # Pendahuluan 
 Pembelajaran menggunakan Lumen sebagai backend dan VUE+Vuetify sebagai Frontend.
 # Requirements
