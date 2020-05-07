@@ -1,6 +1,7 @@
 <img src="https://user-images.githubusercontent.com/7402103/81349561-6df8f280-90ea-11ea-8e1f-8cac14d5ecbd.jpeg"/>
 <br/>
-<img width="896" alt="Screenshot 2020-05-08 at 05 57 55" src="https://user-images.githubusercontent.com/7402103/81352549-0befbb80-90f1-11ea-9cae-d1e4dd51b51f.png">
+<img width="896" alt="Screenshot 2020-05-08 at 05 57 55" src="https://user-images.githubusercontent.com/7402103/81352549-0befbb80-90f1-11ea-9cae-d1e4dd51b51f.png"/>
+
 # Pendahuluan 
 Pembelajaran menggunakan Lumen sebagai backend dan VUE+Vuetify sebagai Frontend.
 # Requirements
