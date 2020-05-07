@@ -7,6 +7,7 @@ Proses pembelajaran ini membutuhkan beberapa hal yang perlu dipersiapkan oleh pe
 * Composer 1.9.1 [wajib]
 * NPM 6.14.4 [wajib]
 * MySQL / Maria DB [wajib]
+* VUE.js Devtools Extension for Chrome Web Browser
 * PHPMyAdmin, atau HeidiSQL, atau Navicat, dan lain-lain [opsional] 
 * Editor bebas, tetapi direkomendasikan Visual Studio Code (VS Code). Bila  VS Code yang digunakan, installkan extension Laravel Blade Snippets, Vetur, vuetify-vscode.[opsional]
 * git 2.24.1 [opsional]
