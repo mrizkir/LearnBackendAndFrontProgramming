@@ -1,3 +1,4 @@
+![logo_aptikom](https://user-images.githubusercontent.com/7402103/81349561-6df8f280-90ea-11ea-8e1f-8cac14d5ecbd.jpeg)
 # Pendahuluan 
 Pembelajaran menggunakan Lumen sebagai backend dan VUE+Vuetify sebagai Frontend.
 # Requirements
