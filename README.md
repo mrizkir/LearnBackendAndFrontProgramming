@@ -147,7 +147,7 @@ Vuetify library terlengkap didunia vue, mempelajarinya membuat project VUE bisa 
 ```bash
 vue add vuetify
 ```
-## Installing Axios
+## Axios
 axios digunakan untuk mengakses webservice dari javascript
 ```bash
 vue add vuex
