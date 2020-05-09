@@ -17,19 +17,15 @@ $router->get('/', function () use ($router) {
 
 $router->post('/auth/login', 'AuthController@login');
 
-$router->group([
-
-    'middleware' => 'api',
-    'prefix' => 'auth'
-
-], function ($router) {    
+$router->group(['middleware'=>'auth:api'], function () use ($router)
+{
     $router->get('/user',['uses'=>'UserController@index','as'=>'user.index']);
     $router->post('/user/store',['uses'=>'UserController@store','as'=>'user.store']);
     $router->put('/user/update/{id}',['uses'=>'UserController@update','as'=>'user.update']);
     $router->delete('/user/{id}',['uses'=>'UserController@destroy','as'=>'user.destroy']);
 
-    $router->post('logout', 'AuthController@logout');
-    $router->post('refresh', 'AuthController@refresh');
-    $router->post('me', 'AuthController@me');
-
+    //authentication    
+    $router->post('/auth/logout',['uses'=>'AuthController@logout','as'=>'auth.logout']);
+    $router->get('/auth/refresh',['uses'=>'AuthController@refresh','as'=>'auth.refresh']);
+    $router->get('/auth/me',['uses'=>'AuthController@me','as'=>'auth.me']);
 });
