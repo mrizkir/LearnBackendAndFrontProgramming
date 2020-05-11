@@ -1,3 +1,4 @@
+![banner](https://user-images.githubusercontent.com/7402103/81536323-8e000e80-9395-11ea-82e3-9c1a99a257a6.jpg)
 
 # Pendahuluan 
 Pembelajaran menggunakan Lumen sebagai backend dan VUE+Vuetify sebagai Frontend.
