@@ -148,7 +148,7 @@ vue add vuetify
 ## Axios
 axios digunakan untuk mengakses webservice dari javascript
 ```bash
-npm add axios
+npm install axios
 ```
 # Pertanyaan
 Pertanyaan bisa diajukan melalui issue tracker [github](https://github.com/mrizkir/LearnBackendAndFrontProgramming/issues)
